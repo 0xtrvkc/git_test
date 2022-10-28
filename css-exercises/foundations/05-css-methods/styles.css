@@ -1,0 +1,11 @@
+#styled {
+    background-color: yellow;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+.unstyled {
+    color: black;
+    text-align: left;
+    background-color: white;
+}
