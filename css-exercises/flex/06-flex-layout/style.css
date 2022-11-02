@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  padding: 5px;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+.bigbox {
+    display: flex;
+    flex-direction: column;
+}
+.topbox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.lefttopbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+.righttopbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 10px;
+}
+.middlebox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+}
+.thesebuttons {
+  display: flex;
+  padding: 5px;
+  gap: 5px;
+}
+.bottombox {
+  background-color: #eeeeee;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.leftbottombox {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.rightbottombox {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px; 
+}
